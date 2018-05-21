@@ -2,6 +2,10 @@
 #
 .DS_Store
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
 *.pbxuser
 !default.pbxuser
 *.mode1v3
