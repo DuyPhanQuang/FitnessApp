@@ -46,11 +46,14 @@
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		870A5E159B3346749AA06B01 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D4B82955991A437295481691 /* SimpleLineIcons.ttf */; };
 		8DC8765BAF1D41FCBBC8574E /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BBBB304627824CE98C7E5239 /* Ionicons.ttf */; };
-		A84D7CB6C503EC8DAF9FD475 /* libPods-FitnessApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 443F28955C8E668E8BAEA61B /* libPods-FitnessApp.a */; };
+		935DFA4CBF0CA5FDA0C918C3 /* libPods-FitnessApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 372C5EE92AEA9E2ACD89598A /* libPods-FitnessApp.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
+		B70B038C20AC7F1A004E7EFD /* libRNCamera.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B70B038B20AC7EFF004E7EFD /* libRNCamera.a */; };
+		B70F8BD620AC8FBD007D728A /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B70F8BD520AC8FBC007D728A /* AddressBook.framework */; };
+		B752F26C20AE9ACE003BFD17 /* libRCTVideo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B70B039520AC7F48004E7EFD /* libRCTVideo.a */; };
+		B752F26D20AE9B48003BFD17 /* libRCTVideo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B70B039320AC7F48004E7EFD /* libRCTVideo.a */; };
 		B7F1D72C20AB24B0005129CE /* libART.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7F1D70420AB249E005129CE /* libART.a */; };
 		B7F1D79820AB3A19005129CE /* libRNVectorIcons.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7F1D79720AB3A0E005129CE /* libRNVectorIcons.a */; };
-		B7F1D86B20AB429A005129CE /* libRNCamera.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7F1D86920AB4293005129CE /* libRNCamera.a */; };
 		B7F1D87C20AB4637005129CE /* GoogleInterchangeUtilities-1.2.2 in Resources */ = {isa = PBXBuildFile; fileRef = B7F1D87720AB4628005129CE /* GoogleInterchangeUtilities-1.2.2 */; };
 		B7F1D87D20AB4637005129CE /* GoogleInterchangeUtilities-1.2.2 in Resources */ = {isa = PBXBuildFile; fileRef = B7F1D87720AB4628005129CE /* GoogleInterchangeUtilities-1.2.2 */; };
 		B7F1D87E20AB4637005129CE /* GoogleInterchangeUtilities-1.2.2 in Resources */ = {isa = PBXBuildFile; fileRef = B7F1D87720AB4628005129CE /* GoogleInterchangeUtilities-1.2.2 */; };
@@ -352,6 +355,27 @@
 			remoteGlobalIDString = 358F4ED71D1E81A9004DF814;
 			remoteInfo = RCTBlob;
 		};
+		B70B038A20AC7EFF004E7EFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B70B038620AC7EFF004E7EFD /* RNCamera.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4107012F1ACB723B00C6AA39;
+			remoteInfo = RNCamera;
+		};
+		B70B039220AC7F48004E7EFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B70B038D20AC7F48004E7EFD /* RCTVideo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RCTVideo;
+		};
+		B70B039420AC7F48004E7EFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B70B038D20AC7F48004E7EFD /* RCTVideo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 641E28441F0EEC8500443AF6;
+			remoteInfo = "RCTVideo-tvOS";
+		};
 		B7F1D70320AB249E005129CE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B7F1D6FE20AB249E005129CE /* ART.xcodeproj */;
@@ -372,27 +396,6 @@
 			proxyType = 2;
 			remoteGlobalIDString = 5DBEB1501B18CEA900B34395;
 			remoteInfo = RNVectorIcons;
-		};
-		B7F1D7FA20AB3D4B005129CE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B7F1D7F520AB3D4B005129CE /* RCTVideo.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 134814201AA4EA6300B7C361;
-			remoteInfo = RCTVideo;
-		};
-		B7F1D7FC20AB3D4B005129CE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B7F1D7F520AB3D4B005129CE /* RCTVideo.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 641E28441F0EEC8500443AF6;
-			remoteInfo = "RCTVideo-tvOS";
-		};
-		B7F1D86820AB4293005129CE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B7F1D83B20AB4293005129CE /* RNCamera.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4107012F1ACB723B00C6AA39;
-			remoteInfo = RNCamera;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -420,6 +423,7 @@
 		2D02E47B1E0B4A5D006451C7 /* FitnessApp-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FitnessApp-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* FitnessApp-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FitnessApp-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		372C5EE92AEA9E2ACD89598A /* libPods-FitnessApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FitnessApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		443F28955C8E668E8BAEA61B /* libPods-FitnessApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FitnessApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4765B8A909BB6CBB89A7A36C /* Pods-FitnessApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitnessApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-FitnessApp/Pods-FitnessApp.release.xcconfig"; sourceTree = "<group>"; };
 		53EB900546104FB49D7475ED /* Roboto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto.ttf; path = "../node_modules/native-base/Fonts/Roboto.ttf"; sourceTree = "<group>"; };
@@ -434,10 +438,11 @@
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		A7A70957AE4A47DD90A5D1E7 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/native-base/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
+		B70B038620AC7EFF004E7EFD /* RNCamera.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNCamera.xcodeproj; path = "../node_modules/react-native-camera/ios/RNCamera.xcodeproj"; sourceTree = "<group>"; };
+		B70B038D20AC7F48004E7EFD /* RCTVideo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTVideo.xcodeproj; path = "../node_modules/react-native-video/ios/RCTVideo.xcodeproj"; sourceTree = "<group>"; };
+		B70F8BD520AC8FBC007D728A /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		B7F1D6FE20AB249E005129CE /* ART.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ART.xcodeproj; path = "../node_modules/react-native/Libraries/ART/ART.xcodeproj"; sourceTree = "<group>"; };
 		B7F1D76B20AB3A0E005129CE /* RNVectorIcons.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNVectorIcons.xcodeproj; path = "../node_modules/react-native-vector-icons/RNVectorIcons.xcodeproj"; sourceTree = "<group>"; };
-		B7F1D7F520AB3D4B005129CE /* RCTVideo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTVideo.xcodeproj; path = "../node_modules/react-native-video/ios/RCTVideo.xcodeproj"; sourceTree = "<group>"; };
-		B7F1D83B20AB4293005129CE /* RNCamera.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNCamera.xcodeproj; path = "../node_modules/react-native-camera/ios/RNCamera.xcodeproj"; sourceTree = "<group>"; };
 		B7F1D87720AB4628005129CE /* GoogleInterchangeUtilities-1.2.2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "GoogleInterchangeUtilities-1.2.2"; sourceTree = "<group>"; };
 		B7F1D87820AB462E005129CE /* GoogleMobileVision-1.1.0 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "GoogleMobileVision-1.1.0"; sourceTree = "<group>"; };
 		B7F1D87920AB4631005129CE /* GoogleNetworkingUtilities-1.2.2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "GoogleNetworkingUtilities-1.2.2"; sourceTree = "<group>"; };
@@ -464,12 +469,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7F1D86B20AB429A005129CE /* libRNCamera.a in Frameworks */,
+				B70F8BD620AC8FBD007D728A /* AddressBook.framework in Frameworks */,
+				B70B038C20AC7F1A004E7EFD /* libRNCamera.a in Frameworks */,
 				B7F1D79820AB3A19005129CE /* libRNVectorIcons.a in Frameworks */,
 				B7F1D72C20AB24B0005129CE /* libART.a in Frameworks */,
 				ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */,
 				5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */,
 				146834051AC3E58100842450 /* libReact.a in Frameworks */,
+				B752F26D20AE9B48003BFD17 /* libRCTVideo.a in Frameworks */,
 				5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */,
 				00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */,
 				00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */,
@@ -480,7 +487,7 @@
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
-				A84D7CB6C503EC8DAF9FD475 /* libPods-FitnessApp.a in Frameworks */,
+				935DFA4CBF0CA5FDA0C918C3 /* libPods-FitnessApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +495,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B752F26C20AE9ACE003BFD17 /* libRCTVideo.a in Frameworks */,
 				2D16E6881FA4F8E400B85C8A /* libReact.a in Frameworks */,
 				2D02E4C21E0B4AEC006451C7 /* libRCTAnimation.a in Frameworks */,
 				2D02E4C31E0B4AEC006451C7 /* libRCTImage-tvOS.a in Frameworks */,
@@ -665,8 +673,8 @@
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				B7F1D83B20AB4293005129CE /* RNCamera.xcodeproj */,
-				B7F1D7F520AB3D4B005129CE /* RCTVideo.xcodeproj */,
+				B70B038D20AC7F48004E7EFD /* RCTVideo.xcodeproj */,
+				B70B038620AC7EFF004E7EFD /* RNCamera.xcodeproj */,
 				B7F1D76B20AB3A0E005129CE /* RNVectorIcons.xcodeproj */,
 				B7F1D6FE20AB249E005129CE /* ART.xcodeproj */,
 				5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */,
@@ -731,6 +739,23 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		B70B038720AC7EFF004E7EFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B70B038B20AC7EFF004E7EFD /* libRNCamera.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B70B038E20AC7F48004E7EFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B70B039320AC7F48004E7EFD /* libRCTVideo.a */,
+				B70B039520AC7F48004E7EFD /* libRCTVideo.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		B7F1D6FF20AB249E005129CE /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -748,31 +773,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B7F1D7F620AB3D4B005129CE /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B7F1D7FB20AB3D4B005129CE /* libRCTVideo.a */,
-				B7F1D7FD20AB3D4B005129CE /* libRCTVideo.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		B7F1D83C20AB4293005129CE /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B7F1D86920AB4293005129CE /* libRNCamera.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		B7F1D86C20AB4582005129CE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B70F8BD520AC8FBC007D728A /* AddressBook.framework */,
 				B7F1D87A20AB4634005129CE /* dbffca986f6337f8-GoogleSymbolUtilities-1.1.1 */,
 				B7F1D87720AB4628005129CE /* GoogleInterchangeUtilities-1.2.2 */,
 				B7F1D87820AB462E005129CE /* GoogleMobileVision-1.1.0 */,
 				B7F1D87920AB4631005129CE /* GoogleNetworkingUtilities-1.2.2 */,
 				B7F1D87B20AB4637005129CE /* GoogleUtilities-1.3.2 */,
+				372C5EE92AEA9E2ACD89598A /* libPods-FitnessApp.a */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
@@ -957,8 +967,8 @@
 					ProjectRef = 00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */;
 				},
 				{
-					ProductGroup = B7F1D7F620AB3D4B005129CE /* Products */;
-					ProjectRef = B7F1D7F520AB3D4B005129CE /* RCTVideo.xcodeproj */;
+					ProductGroup = B70B038E20AC7F48004E7EFD /* Products */;
+					ProjectRef = B70B038D20AC7F48004E7EFD /* RCTVideo.xcodeproj */;
 				},
 				{
 					ProductGroup = 139FDEE71B06529A00C62182 /* Products */;
@@ -969,8 +979,8 @@
 					ProjectRef = 146833FF1AC3E56700842450 /* React.xcodeproj */;
 				},
 				{
-					ProductGroup = B7F1D83C20AB4293005129CE /* Products */;
-					ProjectRef = B7F1D83B20AB4293005129CE /* RNCamera.xcodeproj */;
+					ProductGroup = B70B038720AC7EFF004E7EFD /* Products */;
+					ProjectRef = B70B038620AC7EFF004E7EFD /* RNCamera.xcodeproj */;
 				},
 				{
 					ProductGroup = B7F1D76C20AB3A0E005129CE /* Products */;
@@ -1247,6 +1257,27 @@
 			remoteRef = ADBDB9261DFEBF0700ED6528 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		B70B038B20AC7EFF004E7EFD /* libRNCamera.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNCamera.a;
+			remoteRef = B70B038A20AC7EFF004E7EFD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B70B039320AC7F48004E7EFD /* libRCTVideo.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTVideo.a;
+			remoteRef = B70B039220AC7F48004E7EFD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B70B039520AC7F48004E7EFD /* libRCTVideo.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTVideo.a;
+			remoteRef = B70B039420AC7F48004E7EFD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		B7F1D70420AB249E005129CE /* libART.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -1266,27 +1297,6 @@
 			fileType = archive.ar;
 			path = libRNVectorIcons.a;
 			remoteRef = B7F1D79620AB3A0E005129CE /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		B7F1D7FB20AB3D4B005129CE /* libRCTVideo.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libRCTVideo.a;
-			remoteRef = B7F1D7FA20AB3D4B005129CE /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		B7F1D7FD20AB3D4B005129CE /* libRCTVideo.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libRCTVideo.a;
-			remoteRef = B7F1D7FC20AB3D4B005129CE /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		B7F1D86920AB4293005129CE /* libRNCamera.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libRNCamera.a;
-			remoteRef = B7F1D86820AB4293005129CE /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -1548,14 +1558,19 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = FitnessApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
-					"$(inherited)",
 					"-ObjC",
 					"-lc++",
+					"$(inherited)",
+					"-lz",
 				);
 				PRODUCT_NAME = FitnessApp;
+				VALID_ARCHS = "arm64 armv7 armv7s";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -1566,14 +1581,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = FitnessApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
-					"$(inherited)",
 					"-ObjC",
 					"-lc++",
+					"$(inherited)",
+					"-lz",
 				);
 				PRODUCT_NAME = FitnessApp;
+				VALID_ARCHS = "arm64 armv7 armv7s";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;

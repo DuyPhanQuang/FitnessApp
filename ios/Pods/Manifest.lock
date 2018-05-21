@@ -27,6 +27,10 @@ PODS:
   - GoogleMaps/Base (2.5.0)
   - GoogleMaps/Maps (2.5.0):
     - GoogleMaps/Base
+  - Picker (4.3.6):
+    - Picker/Core (= 4.3.6)
+  - Picker/Core (4.3.6):
+    - React
   - React (0.55.4):
     - React/Core (= 0.55.4)
   - react-native-google-maps (0.21.0):
@@ -83,11 +87,12 @@ PODS:
   - yoga (0.55.4.React)
 
 DEPENDENCIES:
-  - DoubleConversion (from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
-  - Folly (from `../node_modules/react-native/third-party-podspecs/Folly.podspec`)
-  - glog (from `../node_modules/react-native/third-party-podspecs/glog.podspec`)
+  - DoubleConversion (from `../node_modules/react-native/third-party-podspecs`)
+  - Folly (from `../node_modules/react-native/third-party-podspecs`)
+  - glog (from `../node_modules/react-native/third-party-podspecs`)
   - Google-Maps-iOS-Utils
   - GoogleMaps
+  - Picker (from `../node_modules/react-native-picker`)
   - react-native-google-maps (from `../node_modules/react-native-maps`)
   - react-native-maps (from `../node_modules/react-native-maps`)
   - React/Core (from `../node_modules/react-native`)
@@ -107,11 +112,13 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   DoubleConversion:
-    :podspec: ../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec
+    :podspec: ../node_modules/react-native/third-party-podspecs
   Folly:
-    :podspec: ../node_modules/react-native/third-party-podspecs/Folly.podspec
+    :podspec: ../node_modules/react-native/third-party-podspecs
   glog:
-    :podspec: ../node_modules/react-native/third-party-podspecs/glog.podspec
+    :podspec: ../node_modules/react-native/third-party-podspecs
+  Picker:
+    :path: ../node_modules/react-native-picker
   React:
     :path: ../node_modules/react-native
   react-native-google-maps:
@@ -128,11 +135,12 @@ SPEC CHECKSUMS:
   glog: 1de0bb937dccdc981596d3b5825ebfb765017ded
   Google-Maps-iOS-Utils: c32891ff472eaaa1fca032beedafa1a013af7875
   GoogleMaps: c087b8e5dfe87ca6ebf59adb9b4894a4146bec4f
+  Picker: 67a2566d9ff6b141d505d88b9177f905aaa5f1a6
   React: aa2040dbb6f317b95314968021bd2888816e03d5
   react-native-google-maps: 2cfe3b01f8422c7dae51d8764139fd70f888cfce
   react-native-maps: 066c2afcc89e18726377bcc685315f989ca22449
   yoga: a23273df0088bf7f2bb7e5d7b00044ea57a2a54a
 
-PODFILE CHECKSUM: 1790d52261235d8d6ddce01f6ced5569d3cf593e
+PODFILE CHECKSUM: bdf92301ba664ab4b1f57b2c3c6127fd8c052153
 
 COCOAPODS: 1.4.0
