@@ -2,11 +2,6 @@
 #
 .DS_Store
 
-# Xcode
-ios/
-ios/Pods
-#
-build/
 *.pbxuser
 !default.pbxuser
 *.mode1v3
@@ -24,13 +19,6 @@ DerivedData
 *.xcuserstate
 project.xcworkspace
 
-# Android/IntelliJ
-#
-build/
-.idea
-.gradle
-local.properties
-*.iml
 
 # node.js
 #
