@@ -1,0 +1,4 @@
+dependencies: \
+  /Users/DuyPQ/Documents/FitnessApp/node_modules/react-native/third-party/double-conversion-1.1.5/src/bignum.cc \
+  /Users/DuyPQ/Documents/FitnessApp/node_modules/react-native/third-party/double-conversion-1.1.5/src/bignum.h \
+  /Users/DuyPQ/Documents/FitnessApp/node_modules/react-native/third-party/double-conversion-1.1.5/src/utils.h
