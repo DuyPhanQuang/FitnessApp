@@ -85,7 +85,7 @@ export default class VideoTraining extends Component {
                     />
                 </View>
                 <View style={{ flex: 1 }}>
-                    {/* <CameraVideo /> */}
+                    <CameraVideo />
                 </View>
                 <View style={contentContainer}>
                     <View style={progressContainer}>

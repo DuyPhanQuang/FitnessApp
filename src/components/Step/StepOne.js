@@ -35,7 +35,7 @@ export default class StepOne extends Component {
                         if (this.state.loading === false) {
                             this.setState({ loading: true }, async () => {
                                 setTimeout(async () => {
-                                    navigate('ManHinh_CameraVideo');
+                                    navigate('ManHinh_Fitness');
                                     this.setState({ loading: false });
                                 }, 500);
                             });
