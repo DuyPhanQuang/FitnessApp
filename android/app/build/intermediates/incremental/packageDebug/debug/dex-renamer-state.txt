@@ -1,4 +1,4 @@
-#Tue May 22 12:27:41 ICT 2018
+#Thu May 24 11:13:14 ICT 2018
 base.0=/Users/DuyPQ/Documents/FitnessApp/android/app/build/intermediates/transforms/dexMerger/debug/0
 path.1=classes2.dex
 renamed.1=classes2.dex

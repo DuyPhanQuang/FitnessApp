@@ -149,6 +149,7 @@ android {
 }
 
 dependencies {
+    compile project(':react-native-tensorflow')
     implementation project(':react-native-vector-icons')
     implementation project(':react-native-maps')
     implementation project(':react-native-video')

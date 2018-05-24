@@ -58,7 +58,7 @@ export default class CameraVideoScreen extends Component {
 
     startCapture = async () => {
       console.log('check', this.camera);
-      const options = {mute: false, maxDuration: 10, mode: RNCamera.Constants.VideoQuality["460p"]}
+      const options = {mute: false, mode: RNCamera.Constants.VideoQuality["460p"]}
       if (this.camera) {
         const data = await this.camera.recordAsync(options, this.camera._cameraHandle).
         then((data) => console.log('check data', data));
@@ -121,6 +121,11 @@ export default class CameraVideoScreen extends Component {
                   <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
                     <Icon name='ios-camera' style={{ fontSize: 30, }} />
                   </View>
+                </TouchableOpacity>
+                <TouchableOpacity style={styles.captureButton} onPress={this.stopRecording}>
+                    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+                        <Icon name='ios-camera' style={{ fontSize: 30, }} />
+                    </View>
                 </TouchableOpacity>
                 <TouchableOpacity style={styles.captureButton} onPress={this.startCapture}>
                     <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

@@ -318,6 +318,7 @@ android/support/v4/app/NotificationCompatApi21.class
 javax/annotation/RegEx.class
 com/google/android/cameraview/TextureViewPreview.class
 android/support/annotation/GuardedBy.class
+com/rntensorflow/RNTensorFlowPackage.class
 com/brentvatne/react/ReactVideoPackage.class
 android/support/v4/view/ViewPager$3.class
 javax/annotation/Syntax.class
@@ -740,6 +741,7 @@ com/facebook/react/flat/DrawView.class
 com/facebook/react/bridge/CatalystInstance.class
 com/facebook/react/ReactInstanceManager$2.class
 com/facebook/yoga/YogaNode.class
+com/rntensorflow/RNTensorFlowGraphModule.class
 com/lwansbrough/RCTCamera/RCTCameraViewManager.class
 org/reactnative/camera/CameraViewManager.class
 com/facebook/react/flat/FlatUIViewOperationQueue$UpdateMountState.class
@@ -766,6 +768,7 @@ com/facebook/react/ReactFragmentActivity.class
 android/support/v7/widget/ActionMenuView$LayoutParams.class
 android/support/v4/view/MenuItemCompat$OnActionExpandListener.class
 com/facebook/imagepipeline/core/ProducerFactory.class
+com/rntensorflow/imagerecognition/RNImageRecognizerModule.class
 com/facebook/react/modules/datepicker/SupportDatePickerDialogFragment.class
 com/facebook/imagepipeline/cache/BitmapMemoryCacheKey.class
 com/facebook/imagepipeline/request/Postprocessor.class
@@ -816,6 +819,7 @@ com/facebook/react/uimanager/UIManagerModule.class
 com/facebook/cache/disk/DiskCacheConfig$Builder.class
 android/support/v4/provider/FontsContractCompat$FontFamilyResult$FontResultStatus.class
 com/facebook/react/views/scroll/ReactScrollViewManager.class
+com/rntensorflow/RNTensorFlowInferenceModule.class
 com/facebook/react/animated/ValueAnimatedNode.class
 com/facebook/react/modules/dialog/DialogModule$FragmentManagerHelper.class
 com/facebook/react/uimanager/ViewManagerRegistry.class
@@ -917,6 +921,7 @@ com/facebook/imagepipeline/request/BasePostprocessor.class
 com/facebook/react/flat/RCTImageView.class
 com/facebook/react/touch/JSResponderHandler.class
 com/facebook/react/modules/core/Timing.class
+com/rntensorflow/RNTensorFlowGraphOperationsModule.class
 com/facebook/react/bridge/CatalystInstanceImpl$Builder.class
 com/facebook/react/modules/blob/FileReaderModule.class
 android/support/v4/media/session/MediaControllerCompat$TransportControls.class
