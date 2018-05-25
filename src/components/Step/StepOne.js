@@ -45,7 +45,7 @@ export default class StepOne extends Component {
                   }
                   style={btnStyle}
                 >   
-                    <View style={{ flex: 1 }}>
+                    <View style={{ flex: 1, justifyContent:'center', alignItems: 'center' }}>
                         <Text style={textBtnStyle} >NEXT</Text>
                     </View>
                 </TouchableOpacity>
