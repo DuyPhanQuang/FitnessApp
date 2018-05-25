@@ -73,7 +73,7 @@ export default class TrainingItem extends Component {
                                 )
                               }
                             >
-                                <Icon name="info-with-circle" size={35} color="#000" />
+                                <Icon name="info-with-circle" size={25} color="#000" />
                             </TouchableOpacity>
                         </View>
                     </View>
@@ -119,12 +119,13 @@ const styles = StyleSheet.create({
         flex: 1,
         height: DEVICE_HEIGHT * 0.65,
         backgroundColor: '#FFF',
-        marginTop: DEVICE_HEIGHT * 0.02,
-        marginBottom: DEVICE_HEIGHT * 0.02,
+        paddingTop: DEVICE_HEIGHT * 0.02,
+        paddingBottom: DEVICE_HEIGHT * 0.02,
         width: DEVICE_HEIGHT * 0.5,
         borderRadius: 20,
         paddingHorizontal: 20,
         marginLeft: DEVICE_HEIGHT * 0.05,
+        marginTop: 15
     },
     title: {
         flex: 1,
@@ -146,7 +147,7 @@ const styles = StyleSheet.create({
         color: '#505050'
     },
     body: {
-        flex: 3
+        flex: 4
     },
     cardio: {
         flexDirection: 'row',
@@ -162,7 +163,7 @@ const styles = StyleSheet.create({
     },
     infoText: {
         fontFamily: 'Cochin',
-        fontSize: 25,
+        fontSize: 20,
         color: '#505050'
     },
     detailText: {
@@ -173,7 +174,7 @@ const styles = StyleSheet.create({
     },
     moreWorkouts: {
         flexDirection: 'row',
-        paddingBottom: 50
+        paddingBottom: 30
     },
     button: {
         height: DEVICE_HEIGHT * 0.08,

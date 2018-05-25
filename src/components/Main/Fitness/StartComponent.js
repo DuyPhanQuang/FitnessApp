@@ -55,7 +55,7 @@ export default class StartComponent extends Component {
               style={styles.activityIndicator}
             />
             :
-            <View style={{ flex: 1 }}>
+            <View style={{ flex: 1, alignItems: 'center' }}>
                 <FlatList
                   data={this.state.trainingdataFromServer}
                   renderItem={({ item, index }) => (

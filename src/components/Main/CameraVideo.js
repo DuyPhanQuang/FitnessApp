@@ -15,6 +15,8 @@ import {
   Body
 } from 'native-base';
 import { RNCamera } from 'react-native-camera';
+import IconEN from 'react-native-vector-icons/Entypo';
+import IconFT from 'react-native-vector-icons/Feather';
 import { NavigationActions } from 'react-navigation';
 
 const deviceWidth = Dimensions.get('window').width;
@@ -116,7 +118,7 @@ export default class CameraVideoScreen extends Component {
             permissionDialogTitle={'Permission to use camera'}
 
             >
-              <View style={{ justifyContent: 'flex-end' }}>
+              <View style={{ justifyContent: 'flex-end', paddingVertical: 3 }}>
                 <TouchableOpacity style={styles.captureButton} onPress={this.takePicture}>
                   <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
                     <Icon name='ios-camera' style={{ fontSize: 30, }} />
@@ -124,12 +126,12 @@ export default class CameraVideoScreen extends Component {
                 </TouchableOpacity>
                 <TouchableOpacity style={styles.captureButton} onPress={this.stopRecording}>
                     <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-                        <Icon name='ios-camera' style={{ fontSize: 30, }} />
+                        <IconFT name='camera-off' style={{ fontSize: 15, color: 'black' }} />
                     </View>
                 </TouchableOpacity>
                 <TouchableOpacity style={styles.captureButton} onPress={this.startCapture}>
                     <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-                        <Icon name='ios-camera' style={{ fontSize: 30, }} />
+                        <IconEN name='video-camera' style={{ fontSize: 15, color: 'black' }} />
                     </View>
                 </TouchableOpacity>
                 <TouchableOpacity style={styles.captureButton} onPress={() => this.switchType()}>
@@ -177,8 +179,8 @@ const styles = StyleSheet.create({
     borderRadius: 20
   },
   captureButton: {
-    width: 50,
-    height: 50,
+    width: 30,
+    height: 30,
     backgroundColor: 'white',
     borderRadius: 25
   }

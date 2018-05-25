@@ -101,7 +101,7 @@ export default class VideoTraining extends Component {
                         </TouchableOpacity>
                         <View>
                             <AnimatedCircularProgress
-                              size={100}
+                              size={90}
                               width={5}
                               fill={Math.round(progress / duration * 100)}
                               tintColor={APP_THEME}
@@ -132,19 +132,21 @@ export default class VideoTraining extends Component {
                         <Text style={videoTitle}>
                             {vids[currentVideoIndex].TitleName}
                         </Text>
-                        <Text style={nextVid}>
-                            {
-                                currentVideoIndex + 1 === vids.length
-                                ? 'This is the last video'
-                                : `Next: ${vids[currentVideoIndex + 1].TitleName}`
-                            }
-                        </Text>
-                        <Text>{currentVideoIndex + 1}/{totalVideo}</Text>
+                        <View style={{ flexDirection: 'row' }}>
+                            <Text style={nextVid}>
+                                {
+                                    currentVideoIndex + 1 === vids.length
+                                    ? 'This is the last video'
+                                    : `Next: ${vids[currentVideoIndex + 1].TitleName}`
+                                }
+                            </Text>
+                            <Text style={{paddingHorizontal: 10}}>{currentVideoIndex + 1}/{totalVideo}</Text>
+                        </View>
                     </View>
                     <View>
                         <Progress.Bar
                           width={DEVICE_WIDTH}
-                          height={30}
+                          height={25}
                           borderRadius={0}
                           color={APP_THEME}
                           progress={(currentVideoIndex + 1) / totalVideo}
@@ -157,7 +159,7 @@ export default class VideoTraining extends Component {
     }
 }
 
-const styles = StyleSheet.create({
+const styles = {
     container: {
         flex: 1,
     },
@@ -180,7 +182,7 @@ const styles = StyleSheet.create({
         alignItems: 'center'
     },
     text: {
-        flex: 1.5,
+        flex: 1,
         flexDirection: 'column',
         justifyContent: 'space-around',
         alignItems: 'center',
@@ -200,4 +202,4 @@ const styles = StyleSheet.create({
     nextVid: {
         color: '#000',
     }
-});
+};

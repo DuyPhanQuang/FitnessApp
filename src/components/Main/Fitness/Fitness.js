@@ -21,14 +21,8 @@ export default class Fitness extends Component {
                 <Header
                   onOpen={
                       () => {
-                        if (this.state.loading === false) {
-                            this.setState({ loading: true }, async () => {
-                                setTimeout(async () => {
-                                    navigate('DrawerOpen');
-                                    this.setState({ loading: false });
-                                }, 500);
-                            });
-                        }
+                          console.log('check navigate', navigate('SideMenu'))
+                                    navigate('SideMenu');
                       }
                   }
                   onOpenCalendar={

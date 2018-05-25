@@ -22,20 +22,21 @@ export default class StepOne extends Component {
         const { navigate } = this.props.navigation;
         return (
             <View style={container}>
-                <Text style={one} >Hello</Text>
-                <Image source={icApp} style={iconStyle} />
-                <Text style={two} >Welcome to Fitness{'\n'} for Weight Loss!</Text>
-                <Text style={three} >Please, read program details in the{'\n'} appropriate section
-                    of the Menu before {'\n'} starting any plan. We strongly advise {'\n'}
-                    you to consult a doctor before starting {'\n'} any fitness program.
-                </Text>
+                <View style={{ flex: 1 }}>
+                    <Text style={one} >Hello</Text>
+                </View>
+                <View style={{ flex: 4, alignItems: 'center', justifyContent: 'center' }}>
+                    <Image source={icApp} style={iconStyle} />
+                    <Text style={two} >Welcome to Fitness{'\n'} for Weight Loss!</Text>
+                </View>
+                
                 <TouchableOpacity
                   onPress={
                       () => {
                         if (this.state.loading === false) {
                             this.setState({ loading: true }, async () => {
                                 setTimeout(async () => {
-                                    navigate('ManHinh_TestPose');
+                                    navigate('ManHinh_Fitness');
                                     this.setState({ loading: false });
                                 }, 500);
                             });
@@ -43,8 +44,10 @@ export default class StepOne extends Component {
                       }
                   }
                   style={btnStyle}
-                >
-                    <Text style={textBtnStyle} >NEXT</Text>
+                >   
+                    <View style={{ flex: 1 }}>
+                        <Text style={textBtnStyle} >NEXT</Text>
+                    </View>
                 </TouchableOpacity>
             </View>
         );
@@ -55,27 +58,24 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         alignItems: 'center',
+        justifyContent: 'space-between',
         backgroundColor: APP_THEME
     },
     one: {
         fontSize: 30,
         textAlign: 'center',
         color: '#FFF',
-        marginBottom: 100
     },
     two: {
         fontSize: 30,
         textAlign: 'center',
         color: '#FFF',
-        marginBottom: 20,
-        marginTop: 20
+        paddingTop: 15
     },
     three: {
         fontSize: 18,
         textAlign: 'center',
         color: '#FFF',
-        marginTop: DEVICE_HEIGHT / 14,
-        marginBottom: DEVICE_HEIGHT / 8,
         fontStyle: 'italic'
     },
     iconStyle: {
@@ -88,7 +88,8 @@ const styles = StyleSheet.create({
         width: DEVICE_WIDTH / 1.3,
         borderRadius: 50,
         alignItems: 'center',
-        justifyContent: 'center'
+        justifyContent: 'center',
+        marginVertical: 20,
     },
     textBtnStyle: {
         fontSize: 30,
