@@ -204,7 +204,7 @@ MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/DuyPQ/.gradle/caches/t
 	android:label
 		ADDED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:14:7-39
 	android:icon
-		ADDED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:15:7-41
+		ADDED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:15:7-37
 	android:allowBackup
 		ADDED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:16:7-34
 	android:theme

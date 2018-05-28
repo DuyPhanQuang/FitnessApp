@@ -1,10 +1,10 @@
 #Internal package file, do not edit.
-#Tue May 22 15:58:28 ICT 2018
+#Mon May 28 18:28:08 ICT 2018
 5.base=/Users/DuyPQ/Documents/FitnessApp/android/app/build/intermediates/transforms/stripDebugSymbol/debug/0
 42.base=/Users/DuyPQ/Documents/FitnessApp/android/app/build/intermediates/transforms/stripDebugSymbol/debug/0
 22.path=lib/x86/libimagepipeline.so
 32.set=NATIVE_RESOURCE
-32.path=lib/armeabi-v7a/libreactnativejni.so
+32.path=lib/armeabi-v7a/libtensorflow_inference.so
 36.baseType=DIRECTORY
 18.baseType=DIRECTORY
 27.baseType=DIRECTORY
@@ -50,7 +50,7 @@
 4.set=NATIVE_RESOURCE
 23.path=lib/armeabi-v7a/libjsc.so
 42.set=NATIVE_RESOURCE
-33.path=lib/armeabi-v7a/libtensorflow_inference.so
+33.path=lib/armeabi-v7a/libreactnativejni.so
 17.path=lib/armeabi-v7a/libglog.so
 31.set=NATIVE_RESOURCE
 39.baseType=DIRECTORY

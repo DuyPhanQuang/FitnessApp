@@ -46,7 +46,6 @@ export default class BasicFlatList extends Component {
                       showsVerticalScrollIndicator={false}
                       data={this.state.tipsFromServer}
                       renderItem={({ item, index }) =>
-                        // console.log(`Item = ${JSON.stringify(item)}, index = ${index}`);
                          (
                         <TipsItem 
                           item={item}

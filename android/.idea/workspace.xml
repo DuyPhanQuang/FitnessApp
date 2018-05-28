@@ -6459,11 +6459,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane" />
       <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">

@@ -21,7 +21,6 @@ export default class Fitness extends Component {
                 <Header
                   onOpen={
                       () => {
-                          console.log('check navigate', navigate('SideMenu'))
                                     navigate('SideMenu');
                       }
                   }

@@ -36,12 +36,12 @@
         "source": "/Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/5acaa20445f4efbc250fdc3086cd3add/res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_015.png"
     },
     {
-        "merged": "/Users/DuyPQ/Documents/FitnessApp/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_full_open_on_phone.png",
-        "source": "/Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/d047cacb67da153875022cec3bdb0a6b/res/drawable-hdpi-v4/common_full_open_on_phone.png"
-    },
-    {
         "merged": "/Users/DuyPQ/Documents/FitnessApp/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/notification_bg_normal.9.png",
         "source": "/Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/8f4da3a1943882412e4e4c9027689fe6/res/drawable-hdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "/Users/DuyPQ/Documents/FitnessApp/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_full_open_on_phone.png",
+        "source": "/Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/d047cacb67da153875022cec3bdb0a6b/res/drawable-hdpi-v4/common_full_open_on_phone.png"
     },
     {
         "merged": "/Users/DuyPQ/Documents/FitnessApp/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png",
@@ -56,12 +56,12 @@
         "source": "/Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/5acaa20445f4efbc250fdc3086cd3add/res/drawable-hdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
-        "merged": "/Users/DuyPQ/Documents/FitnessApp/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_star_half_black_36dp.png",
-        "source": "/Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/5acaa20445f4efbc250fdc3086cd3add/res/drawable-hdpi-v4/abc_ic_star_half_black_36dp.png"
-    },
-    {
         "merged": "/Users/DuyPQ/Documents/FitnessApp/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/googleg_standard_color_18.png",
         "source": "/Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/d047cacb67da153875022cec3bdb0a6b/res/drawable-hdpi-v4/googleg_standard_color_18.png"
+    },
+    {
+        "merged": "/Users/DuyPQ/Documents/FitnessApp/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_star_half_black_36dp.png",
+        "source": "/Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/5acaa20445f4efbc250fdc3086cd3add/res/drawable-hdpi-v4/abc_ic_star_half_black_36dp.png"
     },
     {
         "merged": "/Users/DuyPQ/Documents/FitnessApp/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/notification_bg_low_pressed.9.png",

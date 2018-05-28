@@ -44,11 +44,9 @@ export default class SignIn extends Component {
             try {
                var res = await apiLogin.Login(this.state.Email, this.state.Password).data;
             } catch (err) {
-                //console.log('Login error: ', err);
             }
             if(temp.code === '200')
             {
-                console.log('sadwqewq');
                 this.props.navigation.navigate('ManHinh_StepOne');
             }
             else

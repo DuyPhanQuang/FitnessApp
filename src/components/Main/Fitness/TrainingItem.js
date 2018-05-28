@@ -17,7 +17,6 @@ export default class TrainingItem extends Component {
     }
 
     componentWillMount() {
-        // console.log(this.props.isFinished);
         this.setState({ finished: this.props.isFinished });
     }
 

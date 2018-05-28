@@ -37,7 +37,7 @@
         android:name="com.fitnessapp.MainApplication"
         android:allowBackup="false"
         android:debuggable="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/iconapp"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <meta-data

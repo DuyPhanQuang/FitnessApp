@@ -2959,7 +2959,7 @@ containing a value of this type.
         public static final int tooltip=0x7f040038;
     }
     public static final class mipmap {
-        public static final int ic_launcher=0x7f030000;
+        public static final int iconapp=0x7f030000;
     }
     public static final class raw {
         public static final int amu_ballon_gx_prefix=0x7f070000;

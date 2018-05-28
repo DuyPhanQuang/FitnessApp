@@ -28,12 +28,9 @@ async function checkAndRequestLocation() {
         };
         const granted = await PermissionsAndroid.request(PermissionsAndroid.PERMISSIONS.ACCESS_FINE_LOCATION, rationale);
         if (granted === PermissionsAndroid.RESULTS.GRANTED) {
-            // console.log('Permission granted');
         } else {
-            // console.log('Location permission denied');
         }
     } catch (err) {
-        // console.log(err);
     }
 }
 
@@ -79,7 +76,6 @@ export default class PrepareRunScreen extends React.Component {
             },
             (error) => {
                 alert('Error: Are location services on?');
-                // console.log(error.message);
             },
             { enableHighAccuracy: true, timeout: 20000, maximumAge: 1000 }
         );

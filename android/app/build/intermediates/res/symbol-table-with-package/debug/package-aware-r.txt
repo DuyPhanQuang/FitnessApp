@@ -911,7 +911,7 @@ int layout support_simple_spinner_dropdown_item 0x7f040035
 int layout surface_view 0x7f040036
 int layout texture_view 0x7f040037
 int layout tooltip 0x7f040038
-int mipmap ic_launcher 0x7f030000
+int mipmap iconapp 0x7f030000
 int raw amu_ballon_gx_prefix 0x7f070000
 int raw amu_basic_folder 0x7f070001
 int raw amu_basic_placemark 0x7f070002

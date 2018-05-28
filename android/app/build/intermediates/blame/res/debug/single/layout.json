@@ -16,12 +16,12 @@
         "source": "/Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/5acaa20445f4efbc250fdc3086cd3add/res/layout/select_dialog_multichoice_material.xml"
     },
     {
-        "merged": "/Users/DuyPQ/Documents/FitnessApp/android/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
-        "source": "/Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/5acaa20445f4efbc250fdc3086cd3add/res/layout/abc_list_menu_item_icon.xml"
-    },
-    {
         "merged": "/Users/DuyPQ/Documents/FitnessApp/android/app/build/intermediates/res/merged/debug/layout/dev_loading_view.xml",
         "source": "/Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/66f4c0f60ddcc6e4273416d08f90dd38/res/layout/dev_loading_view.xml"
+    },
+    {
+        "merged": "/Users/DuyPQ/Documents/FitnessApp/android/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/5acaa20445f4efbc250fdc3086cd3add/res/layout/abc_list_menu_item_icon.xml"
     },
     {
         "merged": "/Users/DuyPQ/Documents/FitnessApp/android/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",

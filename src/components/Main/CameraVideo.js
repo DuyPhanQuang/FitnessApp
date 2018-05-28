@@ -50,20 +50,16 @@ export default class CameraVideoScreen extends Component {
 
 
     takePicture = async () => {
-      console.log('check dd', this.camera.takePictureAsync);
       if (this.camera) {
         const options = { quality: 0.5, base64: true };
         const data = await this.camera.takePictureAsync();
-        console.log('check data takepictur', data);
       }
     }
 
     startCapture = async () => {
-      console.log('check', this.camera);
       const options = {mute: false, mode: RNCamera.Constants.VideoQuality["460p"]}
       if (this.camera) {
-        const data = await this.camera.recordAsync(options, this.camera._cameraHandle).
-        then((data) => console.log('check data', data));
+        const data = await this.camera.recordAsync(options, this.camera._cameraHandle);
         this.setState({
           isRecording: true
   
@@ -101,7 +97,6 @@ export default class CameraVideoScreen extends Component {
     }
 
     render() {
-      console.log('check init type', this.state.camera.type);
       return (
         <View style={styles.container}>
             <RNCamera

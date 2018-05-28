@@ -27,12 +27,6 @@ export default class TestPose extends Component {
     }
   }
 
-  // estimatePoseOnImage = () => {
-  //   posenet.load().then((net) => {
-  //       net.estimateSinglePose(this.image, imageScaleFactor, flipHorizontal, outputStride)
-  //   }).then((pose) => console.log(pose))
-  // }
-
 
   render() {
     return (

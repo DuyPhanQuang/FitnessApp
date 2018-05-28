@@ -15,25 +15,6 @@ export default class MyWeight extends Component {
         }
         return weight;
     }
-    // _showWeightPicker() {
-    //     Picker.init({
-    //         pickerData: this._createWeightData(),
-    //         selectedValue: [1],
-    //         pickerToolBarFontSize: 18,
-    //         pickerFontSize: 18,
-    //         pickerFontColor: [255,0,0,10],
-    //         onPickerConfirm: (pickedValue, pickedIndex) => {
-    //             //console.log('weight', pickedValue, pickedIndex);
-    //         },
-    //         onPickerCancel: (pickedValue, pickedIndex) => {
-    //             //console.log('weight', pickedValue, pickedIndex);
-    //         },
-    //         onPickerSelect: (pickedValue, pickedIndex) => {
-    //             //console.log('weight', pickedValue, pickedIndex);
-    //         }
-    //     });
-    //     Picker.show();
-    // }
     render() {
         return (
             <View style={{ flex: 1, height: DEVICE_HEIGHT, backgroundColor: '#fff', justifyContent: 'center', alignItems: 'center' }}>
