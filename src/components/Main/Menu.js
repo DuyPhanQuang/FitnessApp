@@ -109,7 +109,7 @@ export default class Menu extends Component {
                             <Text style={btnTextStyleAfter} >Tips</Text>
                         </View>
                     </TouchableOpacity>
-                    <TouchableOpacity
+                    {/* <TouchableOpacity
                       onPress={
                           () => {
                             if (this.state.loading === false) {
@@ -128,13 +128,13 @@ export default class Menu extends Component {
                             <Image source={icExercises} style={iconStyle} />
                             <Text style={btnTextStyleAfter} >Exercises</Text>
                         </View>
-                    </TouchableOpacity>
-                    <TouchableOpacity style={btnStyleAfter}>
+                    </TouchableOpacity> */}
+                    {/* <TouchableOpacity style={btnStyleAfter}>
                         <View style={menuStyle}>
                             <Image source={icSettings} style={iconStyle} />
                             <Text style={btnTextStyleAfter} >Settings</Text>
                         </View>
-                    </TouchableOpacity>
+                    </TouchableOpacity> */}
                     <TouchableOpacity
                       style={btnStyleAfter}
                       onPress={
@@ -155,7 +155,7 @@ export default class Menu extends Component {
                             <Text style={btnTextStyleAfter} >Rate the App</Text>
                         </View>
                     </TouchableOpacity>
-                    <TouchableOpacity
+                    {/* <TouchableOpacity
                       onPress={
                           () => {
                             if (this.state.loading === false) {
@@ -186,7 +186,7 @@ export default class Menu extends Component {
                             <Image source={icSignOut} style={iconStyle} />
                             <Text style={btnTextStyleAfter} >Sign out</Text>
                         </View>
-                    </TouchableOpacity>
+                    </TouchableOpacity> */}
             </View>
         );
         const mainJSX = this.state.isLoggedIn ? logInJSX : logOutJSX;

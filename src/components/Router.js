@@ -36,8 +36,8 @@ import DetailExercisesMid from './Exercises/DetailExercisesMid';
 import DetailExercisesBottom from './Exercises/DetailExercisesBottom';
 import FinishedTrainingDay from './Main/Fitness/FinishedTrainingDay';
 import CameraVideo from './Main/CameraVideo';
-import TestTensorFlow from './VideoTraining/TestTensorFlow';
-import TestPose from './VideoTraining/TestPose';
+// import TestTensorFlow from './VideoTraining/TestTensorFlow';
+// import TestPose from './VideoTraining/TestPose';
 
 export const MainStack = StackNavigator({
 
@@ -169,14 +169,14 @@ export const MainStack = StackNavigator({
             header: null,
         }
     },
-    ManHinh_TestTensor: {
-        screen: TestTensorFlow,
-        header: null
-    },
-    ManHinh_TestPose: {
-        screen: TestPose,
-        header: null
-    }
+    // ManHinh_TestTensor: {
+    //     screen: TestTensorFlow,
+    //     header: null
+    // },
+    // ManHinh_TestPose: {
+    //     screen: TestPose,
+    //     header: null
+    // }
 });
 export const ExercisesFullBodyStack = StackNavigator({
     ManHinh_FullBody: {

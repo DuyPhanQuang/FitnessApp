@@ -21,7 +21,7 @@ export default class Fitness extends Component {
                 <Header
                   onOpen={
                       () => {
-                                    navigate('SideMenu');
+                                    navigate('DrawerOpen');
                       }
                   }
                   onOpenCalendar={

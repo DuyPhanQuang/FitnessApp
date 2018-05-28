@@ -36,7 +36,7 @@ export default class RateTheApp extends Component {
                       maxStars={5}
                       rating={this.state.starCount}
                       selectedStar={rating => this.onStarRatingPress(rating)}
-                      starColor="#FFF"
+                      fullStarColor="#FFF"
                       starSize={60}
                     />
                     <View style={{ marginTop: 30 }}>
