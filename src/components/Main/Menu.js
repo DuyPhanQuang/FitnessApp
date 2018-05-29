@@ -129,12 +129,12 @@ export default class Menu extends Component {
                             <Text style={btnTextStyleAfter} >Exercises</Text>
                         </View>
                     </TouchableOpacity> */}
-                    {/* <TouchableOpacity style={btnStyleAfter}>
+                    <TouchableOpacity style={btnStyleAfter}>
                         <View style={menuStyle}>
                             <Image source={icSettings} style={iconStyle} />
                             <Text style={btnTextStyleAfter} >Settings</Text>
                         </View>
-                    </TouchableOpacity> */}
+                    </TouchableOpacity>
                     <TouchableOpacity
                       style={btnStyleAfter}
                       onPress={
