@@ -1,473 +1,90 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:1:1-34:12
-INJECTED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:1:1-34:12
-INJECTED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:1:1-34:12
-INJECTED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:1:1-34:12
-MERGED from [:react-native-vector-icons] /Users/DuyPQ/Documents/FitnessApp/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/release/AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-maps] /Users/DuyPQ/Documents/FitnessApp/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/release/AndroidManifest.xml:2:1-12:12
-MERGED from [:react-native-video] /Users/DuyPQ/Documents/FitnessApp/node_modules/react-native-video/android/build/intermediates/manifests/full/release/AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-camera] /Users/DuyPQ/Documents/FitnessApp/node_modules/react-native-camera/android/build/intermediates/manifests/full/release/AndroidManifest.xml:2:1-20:12
-MERGED from [com.android.support:exifinterface:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/exifinterface-26.1.0.aar/e029e70da3473e2cdd4284126dfdfff7/AndroidManifest.xml:17:1-28:12
-MERGED from [com.google.android.gms:play-services-vision:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-vision-12.0.1.aar/e92428362f57926d47533c6becfd6954/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.react:react-native:0.55.4] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/66f4c0f60ddcc6e4273416d08f90dd38/AndroidManifest.xml:2:1-15:12
-MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/5acaa20445f4efbc250fdc3086cd3add/AndroidManifest.xml:17:1-31:12
-MERGED from [com.google.android.gms:play-services-gcm:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-gcm-12.0.1.aar/7c35f3da171b9685602525f03ce55184/AndroidManifest.xml:17:1-28:12
-MERGED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-analytics-12.0.1.aar/333938ebe2532ab6115eb297d9d71b34/AndroidManifest.xml:17:1-47:12
-MERGED from [com.google.android.gms:play-services-location:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-location-12.0.1.aar/2a4799f370fd66d2af4ce74cba25f1f0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-maps:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-maps-12.0.1.aar/97b3bf820a83ad835f8d1c69d686eddb/AndroidManifest.xml:17:1-32:12
-MERGED from [com.google.android.gms:play-services-vision-common:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-12.0.1.aar/ba764d78da2324a4f4caa9649cc28db5/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-iid:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-iid-12.0.1.aar/1ba9a4d984de45c31b84a8ee2097eba6/AndroidManifest.xml:17:1-28:12
-MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-12.0.1.aar/969173de65e74c48bcfdbfddc1480661/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-analytics-impl:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-12.0.1.aar/ec8ee1d1579358fb746a0a59b992f5db/AndroidManifest.xml:17:1-31:12
-MERGED from [com.google.android.gms:play-services-base:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/d047cacb67da153875022cec3bdb0a6b/AndroidManifest.xml:17:1-29:12
-MERGED from [com.android.support:multidex:1.0.2] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/847d6623769c80bc22503860eb578a00/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/9abfe7ab30a4b3ece21e0a4bfd879f5e/AndroidManifest.xml:2:1-13:12
-MERGED from [com.yqritc:android-scalablevideoview:1.0.4] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/android-scalablevideoview-1.0.4.aar/674e2d64cf1c36a96b688d6fad8d47a2/AndroidManifest.xml:2:1-12:12
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/2d8b7846366b10504338a0b5f923bddf/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/d456b9de08407027591c6ddc5c5622f9/AndroidManifest.xml:17:1-28:12
-MERGED from [com.google.android.gms:play-services-tasks:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-tasks-12.0.1.aar/c67739e7c96cb5a5f124cff460bcc2be/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-basement:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.1.aar/ba1d0226a3a8d97bbf5b2892f4b45002/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-v4:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e717da2e0d85954776fc9d8c9a427efe/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-media-compat:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c3c252a9c6cd4f780c45a092df9f0f6b/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-fragment:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/4eedd3b4c718a50c4275938fb391d21c/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-utils:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/375964bfd398f3d174435d96f2373b52/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-ui:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/23d801bd9ccd62861bbc2817e84020ab/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-compat:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/8f4da3a1943882412e4e4c9027689fe6/AndroidManifest.xml:17:1-31:12
-MERGED from [com.google.android.gms:play-services-vision-license:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-vision-license-12.0.1.aar/235c9117fbc8c5962e283bffc99fa89e/AndroidManifest.xml:17:1-24:12
-MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/feb7313768e4a11a27fcb4968b9e27a8/AndroidManifest.xml:10:1-18:12
-MERGED from [com.facebook.fresco:fresco:1.3.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/ea334e61edcc4920b4cf95ff72266b25/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/d2a30c1b13d66bb30b83052866e3cba9/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/1de5f68a7cc8440bd5b916485ba6e803/AndroidManifest.xml:1:1-4:12
-MERGED from [org.webkit:android-jsc:r174650] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/4e1792970f0c236088a5e5be31e8776b/AndroidManifest.xml:1:1-3:12
-MERGED from [com.google.android.gms:play-services-gcm-license:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-gcm-license-12.0.1.aar/3b7d741633fd0bfbc9047e102f6fa0e5/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-analytics-license:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-analytics-license-12.0.1.aar/85e85d37e4f84dd215e9281fb2bf2421/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-location-license:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-location-license-12.0.1.aar/f683392a317f4dfd5d2d1973a255381d/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-base-license:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-base-license-12.0.1.aar/9d98ef826ecd92c21092294a5f791212/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-maps-license:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-maps-license-12.0.1.aar/1a66b6d87fbd8d1a96b8c25a9fc8a5b3/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-12.0.1.aar/c7e4beefe8cc69963056a22f42a45908/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-vision-common-license:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-license-12.0.1.aar/4f6e58b9df36c2a74cd98480c21b5c16/AndroidManifest.xml:17:1-24:12
-MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/5a866db911c964c2fa751224f4e36bfe/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/68c95dc3c96309a0935a9e382dc106c7/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/c1686a1383ea45b57be8ceb478c5dd8d/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/b06bf918dc19cb1e0f0da499ee839fe8/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-iid-license:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-iid-license-12.0.1.aar/3b23c355035dc0e867b8c3d644895c01/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-analytics-impl-license:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-license-12.0.1.aar/e16ecdb3bbf6c31af9a4e08fefaeb4cb/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl-license:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-license-12.0.1.aar/5171317e53ba20a53a5caecc26144fbb/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-12.0.1.aar/af198bcad07f3eaa39e2beab7f3ee131/AndroidManifest.xml:17:1-24:12
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/5bf878eebf2832a2dcccb8ba1ace772d/AndroidManifest.xml:17:1-30:12
-INJECTED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:1:1-34:12
-INJECTED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:1:1-34:12
-INJECTED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:1:1-34:12
+ADDED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:1:1-26:12
 	package
 		ADDED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:2:5-29
 		INJECTED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:1:1-34:12
-		INJECTED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml
-	android:versionCode
-		INJECTED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:1:1-34:12
 		INJECTED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:1:11-69
+	android:versionCode
+		INJECTED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.INTERNET
 ADDED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:4:5-67
-MERGED from [:react-native-maps] /Users/DuyPQ/Documents/FitnessApp/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/release/AndroidManifest.xml:9:5-67
-MERGED from [:react-native-maps] /Users/DuyPQ/Documents/FitnessApp/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/release/AndroidManifest.xml:9:5-67
-MERGED from [com.google.android.gms:play-services-gcm:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-gcm-12.0.1.aar/7c35f3da171b9685602525f03ce55184/AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-gcm:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-gcm-12.0.1.aar/7c35f3da171b9685602525f03ce55184/AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-analytics-12.0.1.aar/333938ebe2532ab6115eb297d9d71b34/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-analytics-12.0.1.aar/333938ebe2532ab6115eb297d9d71b34/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-maps:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-maps-12.0.1.aar/97b3bf820a83ad835f8d1c69d686eddb/AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-maps:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-maps-12.0.1.aar/97b3bf820a83ad835f8d1c69d686eddb/AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-iid:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-iid-12.0.1.aar/1ba9a4d984de45c31b84a8ee2097eba6/AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-iid:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-iid-12.0.1.aar/1ba9a4d984de45c31b84a8ee2097eba6/AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-analytics-impl:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-12.0.1.aar/ec8ee1d1579358fb746a0a59b992f5db/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-analytics-impl:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-12.0.1.aar/ec8ee1d1579358fb746a0a59b992f5db/AndroidManifest.xml:23:5-67
 	android:name
 		ADDED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:4:22-64
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
 ADDED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:5:5-77
-MERGED from [com.facebook.react:react-native:0.55.4] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/66f4c0f60ddcc6e4273416d08f90dd38/AndroidManifest.xml:11:5-78
-MERGED from [com.facebook.react:react-native:0.55.4] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/66f4c0f60ddcc6e4273416d08f90dd38/AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.55.4] /Users/DuyPQ/Documents/FitnessApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.4/AndroidManifest.xml:11:5-78
 	android:name
 		ADDED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:5:22-75
-uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:6:5-79
-	android:name
-		ADDED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:6:22-76
-uses-permission#android.permission.CAMERA
-ADDED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:7:5-65
-MERGED from [:react-native-camera] /Users/DuyPQ/Documents/FitnessApp/node_modules/react-native-camera/android/build/intermediates/manifests/full/release/AndroidManifest.xml:11:5-65
-MERGED from [:react-native-camera] /Users/DuyPQ/Documents/FitnessApp/node_modules/react-native-camera/android/build/intermediates/manifests/full/release/AndroidManifest.xml:11:5-65
-	android:name
-		ADDED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:7:22-62
-uses-permission#android.permission.RECORD_AUDIO
-ADDED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:8:5-70
-	android:name
-		ADDED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:8:22-68
-uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:9:5-80
-	android:name
-		ADDED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:9:22-77
-uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:10:5-81
-	android:name
-		ADDED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:10:22-78
 application
-ADDED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:12:5-32:19
-MERGED from [com.android.support:exifinterface:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/exifinterface-26.1.0.aar/e029e70da3473e2cdd4284126dfdfff7/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:exifinterface:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/exifinterface-26.1.0.aar/e029e70da3473e2cdd4284126dfdfff7/AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-vision:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-vision-12.0.1.aar/e92428362f57926d47533c6becfd6954/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-vision:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-vision-12.0.1.aar/e92428362f57926d47533c6becfd6954/AndroidManifest.xml:7:5-20
-MERGED from [com.facebook.react:react-native:0.55.4] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/66f4c0f60ddcc6e4273416d08f90dd38/AndroidManifest.xml:13:5-20
-MERGED from [com.facebook.react:react-native:0.55.4] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/66f4c0f60ddcc6e4273416d08f90dd38/AndroidManifest.xml:13:5-20
-MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/5acaa20445f4efbc250fdc3086cd3add/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/5acaa20445f4efbc250fdc3086cd3add/AndroidManifest.xml:25:5-29:19
-MERGED from [com.google.android.gms:play-services-gcm:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-gcm-12.0.1.aar/7c35f3da171b9685602525f03ce55184/AndroidManifest.xml:26:5-20
-MERGED from [com.google.android.gms:play-services-gcm:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-gcm-12.0.1.aar/7c35f3da171b9685602525f03ce55184/AndroidManifest.xml:26:5-20
-MERGED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-analytics-12.0.1.aar/333938ebe2532ab6115eb297d9d71b34/AndroidManifest.xml:29:5-45:19
-MERGED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-analytics-12.0.1.aar/333938ebe2532ab6115eb297d9d71b34/AndroidManifest.xml:29:5-45:19
-MERGED from [com.google.android.gms:play-services-location:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-location-12.0.1.aar/2a4799f370fd66d2af4ce74cba25f1f0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-location:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-location-12.0.1.aar/2a4799f370fd66d2af4ce74cba25f1f0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-maps:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-maps-12.0.1.aar/97b3bf820a83ad835f8d1c69d686eddb/AndroidManifest.xml:30:5-20
-MERGED from [com.google.android.gms:play-services-maps:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-maps-12.0.1.aar/97b3bf820a83ad835f8d1c69d686eddb/AndroidManifest.xml:30:5-20
-MERGED from [com.google.android.gms:play-services-vision-common:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-12.0.1.aar/ba764d78da2324a4f4caa9649cc28db5/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-vision-common:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-12.0.1.aar/ba764d78da2324a4f4caa9649cc28db5/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-iid:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-iid-12.0.1.aar/1ba9a4d984de45c31b84a8ee2097eba6/AndroidManifest.xml:26:5-20
-MERGED from [com.google.android.gms:play-services-iid:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-iid-12.0.1.aar/1ba9a4d984de45c31b84a8ee2097eba6/AndroidManifest.xml:26:5-20
-MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-12.0.1.aar/969173de65e74c48bcfdbfddc1480661/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-12.0.1.aar/969173de65e74c48bcfdbfddc1480661/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-analytics-impl:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-12.0.1.aar/ec8ee1d1579358fb746a0a59b992f5db/AndroidManifest.xml:29:5-20
-MERGED from [com.google.android.gms:play-services-analytics-impl:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-12.0.1.aar/ec8ee1d1579358fb746a0a59b992f5db/AndroidManifest.xml:29:5-20
-MERGED from [com.google.android.gms:play-services-base:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/d047cacb67da153875022cec3bdb0a6b/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/d047cacb67da153875022cec3bdb0a6b/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/9abfe7ab30a4b3ece21e0a4bfd879f5e/AndroidManifest.xml:7:5-11:19
-MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/9abfe7ab30a4b3ece21e0a4bfd879f5e/AndroidManifest.xml:7:5-11:19
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/2d8b7846366b10504338a0b5f923bddf/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/2d8b7846366b10504338a0b5f923bddf/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/d456b9de08407027591c6ddc5c5622f9/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/d456b9de08407027591c6ddc5c5622f9/AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-tasks:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-tasks-12.0.1.aar/c67739e7c96cb5a5f124cff460bcc2be/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-tasks-12.0.1.aar/c67739e7c96cb5a5f124cff460bcc2be/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.1.aar/ba1d0226a3a8d97bbf5b2892f4b45002/AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.1.aar/ba1d0226a3a8d97bbf5b2892f4b45002/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-v4:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e717da2e0d85954776fc9d8c9a427efe/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-v4:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e717da2e0d85954776fc9d8c9a427efe/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c3c252a9c6cd4f780c45a092df9f0f6b/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c3c252a9c6cd4f780c45a092df9f0f6b/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/4eedd3b4c718a50c4275938fb391d21c/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/4eedd3b4c718a50c4275938fb391d21c/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/375964bfd398f3d174435d96f2373b52/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/375964bfd398f3d174435d96f2373b52/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/23d801bd9ccd62861bbc2817e84020ab/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/23d801bd9ccd62861bbc2817e84020ab/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/8f4da3a1943882412e4e4c9027689fe6/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/8f4da3a1943882412e4e4c9027689fe6/AndroidManifest.xml:25:5-29:19
-MERGED from [com.google.android.gms:play-services-vision-license:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-vision-license-12.0.1.aar/235c9117fbc8c5962e283bffc99fa89e/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-vision-license:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-vision-license-12.0.1.aar/235c9117fbc8c5962e283bffc99fa89e/AndroidManifest.xml:22:5-20
-MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/1de5f68a7cc8440bd5b916485ba6e803/AndroidManifest.xml:3:3-17
-MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/1de5f68a7cc8440bd5b916485ba6e803/AndroidManifest.xml:3:3-17
-MERGED from [org.webkit:android-jsc:r174650] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/4e1792970f0c236088a5e5be31e8776b/AndroidManifest.xml:2:3-17
-MERGED from [org.webkit:android-jsc:r174650] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/4e1792970f0c236088a5e5be31e8776b/AndroidManifest.xml:2:3-17
-MERGED from [com.google.android.gms:play-services-gcm-license:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-gcm-license-12.0.1.aar/3b7d741633fd0bfbc9047e102f6fa0e5/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-gcm-license:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-gcm-license-12.0.1.aar/3b7d741633fd0bfbc9047e102f6fa0e5/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-analytics-license:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-analytics-license-12.0.1.aar/85e85d37e4f84dd215e9281fb2bf2421/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-analytics-license:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-analytics-license-12.0.1.aar/85e85d37e4f84dd215e9281fb2bf2421/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-location-license:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-location-license-12.0.1.aar/f683392a317f4dfd5d2d1973a255381d/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-location-license:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-location-license-12.0.1.aar/f683392a317f4dfd5d2d1973a255381d/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-base-license:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-base-license-12.0.1.aar/9d98ef826ecd92c21092294a5f791212/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-base-license:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-base-license-12.0.1.aar/9d98ef826ecd92c21092294a5f791212/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-maps-license:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-maps-license-12.0.1.aar/1a66b6d87fbd8d1a96b8c25a9fc8a5b3/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-maps-license:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-maps-license-12.0.1.aar/1a66b6d87fbd8d1a96b8c25a9fc8a5b3/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-12.0.1.aar/c7e4beefe8cc69963056a22f42a45908/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-12.0.1.aar/c7e4beefe8cc69963056a22f42a45908/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-vision-common-license:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-license-12.0.1.aar/4f6e58b9df36c2a74cd98480c21b5c16/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-vision-common-license:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-license-12.0.1.aar/4f6e58b9df36c2a74cd98480c21b5c16/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-iid-license:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-iid-license-12.0.1.aar/3b23c355035dc0e867b8c3d644895c01/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-iid-license:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-iid-license-12.0.1.aar/3b23c355035dc0e867b8c3d644895c01/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-analytics-impl-license:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-license-12.0.1.aar/e16ecdb3bbf6c31af9a4e08fefaeb4cb/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-analytics-impl-license:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-license-12.0.1.aar/e16ecdb3bbf6c31af9a4e08fefaeb4cb/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl-license:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-license-12.0.1.aar/5171317e53ba20a53a5caecc26144fbb/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl-license:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-license-12.0.1.aar/5171317e53ba20a53a5caecc26144fbb/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-12.0.1.aar/af198bcad07f3eaa39e2beab7f3ee131/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-12.0.1.aar/af198bcad07f3eaa39e2beab7f3ee131/AndroidManifest.xml:22:5-20
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/5bf878eebf2832a2dcccb8ba1ace772d/AndroidManifest.xml:24:5-28:19
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/5bf878eebf2832a2dcccb8ba1ace772d/AndroidManifest.xml:24:5-28:19
+ADDED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:7:5-24:19
+MERGED from [com.facebook.react:react-native:0.55.4] /Users/DuyPQ/Documents/FitnessApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.4/AndroidManifest.xml:13:5-20
+MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/DuyPQ/Documents/FitnessApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.1] /Users/DuyPQ/Documents/FitnessApp/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/DuyPQ/Documents/FitnessApp/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/AndroidManifest.xml:3:3-17
+MERGED from [org.webkit:android-jsc:r174650] /Users/DuyPQ/Documents/FitnessApp/android/app/build/intermediates/exploded-aar/org.webkit/android-jsc/r174650/AndroidManifest.xml:2:3-17
 	android:label
-		ADDED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:14:7-39
-	android:icon
-		ADDED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:15:7-37
+		ADDED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:9:7-39
 	android:allowBackup
-		ADDED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:16:7-34
+		ADDED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:11:7-34
+	android:icon
+		ADDED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:10:7-41
 	android:theme
-		ADDED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:17:7-38
+		ADDED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:12:7-38
 	android:name
-		ADDED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:13:7-38
-meta-data#com.google.android.geo.API_KEY
-ADDED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:18:7-20:66
-	android:value
-		ADDED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:20:9-64
-	android:name
-		ADDED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:19:9-54
+		ADDED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:8:7-38
 activity#com.fitnessapp.MainActivity
-ADDED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:21:7-30:18
+ADDED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:13:7-22:18
 	android:label
-		ADDED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:23:9-41
+		ADDED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:15:9-41
 	android:windowSoftInputMode
-		ADDED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:25:9-51
+		ADDED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:17:9-51
 	android:configChanges
-		ADDED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:24:9-79
+		ADDED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:16:9-79
 	android:name
-		ADDED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:22:9-37
+		ADDED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:14:9-37
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:26:9-29:25
+ADDED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:18:9-21:25
 action#android.intent.action.MAIN
-ADDED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:27:13-65
+ADDED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:19:13-65
 	android:name
-		ADDED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:27:21-62
+		ADDED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:19:21-62
 category#android.intent.category.LAUNCHER
-ADDED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:28:13-73
+ADDED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:20:13-73
 	android:name
-		ADDED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:28:23-70
+		ADDED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:20:23-70
 activity#com.facebook.react.devsupport.DevSettingsActivity
-ADDED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:31:7-84
+ADDED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:23:7-84
 	android:name
-		ADDED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:31:17-81
+		ADDED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:23:17-81
 uses-sdk
 INJECTED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml
-INJECTED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml
-MERGED from [:react-native-vector-icons] /Users/DuyPQ/Documents/FitnessApp/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/release/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-vector-icons] /Users/DuyPQ/Documents/FitnessApp/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/release/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-maps] /Users/DuyPQ/Documents/FitnessApp/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-maps] /Users/DuyPQ/Documents/FitnessApp/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-video] /Users/DuyPQ/Documents/FitnessApp/node_modules/react-native-video/android/build/intermediates/manifests/full/release/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-video] /Users/DuyPQ/Documents/FitnessApp/node_modules/react-native-video/android/build/intermediates/manifests/full/release/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-camera] /Users/DuyPQ/Documents/FitnessApp/node_modules/react-native-camera/android/build/intermediates/manifests/full/release/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-camera] /Users/DuyPQ/Documents/FitnessApp/node_modules/react-native-camera/android/build/intermediates/manifests/full/release/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:exifinterface:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/exifinterface-26.1.0.aar/e029e70da3473e2cdd4284126dfdfff7/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:exifinterface:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/exifinterface-26.1.0.aar/e029e70da3473e2cdd4284126dfdfff7/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-vision:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-vision-12.0.1.aar/e92428362f57926d47533c6becfd6954/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-vision:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-vision-12.0.1.aar/e92428362f57926d47533c6becfd6954/AndroidManifest.xml:5:5-44
-MERGED from [com.facebook.react:react-native:0.55.4] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/66f4c0f60ddcc6e4273416d08f90dd38/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.55.4] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/66f4c0f60ddcc6e4273416d08f90dd38/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/5acaa20445f4efbc250fdc3086cd3add/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/5acaa20445f4efbc250fdc3086cd3add/AndroidManifest.xml:21:5-23:78
-MERGED from [com.google.android.gms:play-services-gcm:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-gcm-12.0.1.aar/7c35f3da171b9685602525f03ce55184/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-gcm:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-gcm-12.0.1.aar/7c35f3da171b9685602525f03ce55184/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-analytics-12.0.1.aar/333938ebe2532ab6115eb297d9d71b34/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-analytics-12.0.1.aar/333938ebe2532ab6115eb297d9d71b34/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-location:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-location-12.0.1.aar/2a4799f370fd66d2af4ce74cba25f1f0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-location:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-location-12.0.1.aar/2a4799f370fd66d2af4ce74cba25f1f0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-maps:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-maps-12.0.1.aar/97b3bf820a83ad835f8d1c69d686eddb/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-maps:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-maps-12.0.1.aar/97b3bf820a83ad835f8d1c69d686eddb/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-vision-common:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-12.0.1.aar/ba764d78da2324a4f4caa9649cc28db5/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-vision-common:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-12.0.1.aar/ba764d78da2324a4f4caa9649cc28db5/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-iid:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-iid-12.0.1.aar/1ba9a4d984de45c31b84a8ee2097eba6/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-iid:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-iid-12.0.1.aar/1ba9a4d984de45c31b84a8ee2097eba6/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-12.0.1.aar/969173de65e74c48bcfdbfddc1480661/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-12.0.1.aar/969173de65e74c48bcfdbfddc1480661/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-analytics-impl:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-12.0.1.aar/ec8ee1d1579358fb746a0a59b992f5db/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-analytics-impl:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-12.0.1.aar/ec8ee1d1579358fb746a0a59b992f5db/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/d047cacb67da153875022cec3bdb0a6b/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/d047cacb67da153875022cec3bdb0a6b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:multidex:1.0.2] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/847d6623769c80bc22503860eb578a00/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:multidex:1.0.2] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/847d6623769c80bc22503860eb578a00/AndroidManifest.xml:20:5-43
-MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/9abfe7ab30a4b3ece21e0a4bfd879f5e/AndroidManifest.xml:5:5-43
-MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/9abfe7ab30a4b3ece21e0a4bfd879f5e/AndroidManifest.xml:5:5-43
-MERGED from [com.yqritc:android-scalablevideoview:1.0.4] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/android-scalablevideoview-1.0.4.aar/674e2d64cf1c36a96b688d6fad8d47a2/AndroidManifest.xml:8:5-10:41
-MERGED from [com.yqritc:android-scalablevideoview:1.0.4] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/android-scalablevideoview-1.0.4.aar/674e2d64cf1c36a96b688d6fad8d47a2/AndroidManifest.xml:8:5-10:41
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/2d8b7846366b10504338a0b5f923bddf/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/2d8b7846366b10504338a0b5f923bddf/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/d456b9de08407027591c6ddc5c5622f9/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/d456b9de08407027591c6ddc5c5622f9/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tasks:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-tasks-12.0.1.aar/c67739e7c96cb5a5f124cff460bcc2be/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-tasks-12.0.1.aar/c67739e7c96cb5a5f124cff460bcc2be/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.1.aar/ba1d0226a3a8d97bbf5b2892f4b45002/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.1.aar/ba1d0226a3a8d97bbf5b2892f4b45002/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e717da2e0d85954776fc9d8c9a427efe/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e717da2e0d85954776fc9d8c9a427efe/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-media-compat:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c3c252a9c6cd4f780c45a092df9f0f6b/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-media-compat:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c3c252a9c6cd4f780c45a092df9f0f6b/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-fragment:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/4eedd3b4c718a50c4275938fb391d21c/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-fragment:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/4eedd3b4c718a50c4275938fb391d21c/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-utils:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/375964bfd398f3d174435d96f2373b52/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-utils:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/375964bfd398f3d174435d96f2373b52/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-ui:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/23d801bd9ccd62861bbc2817e84020ab/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/23d801bd9ccd62861bbc2817e84020ab/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/8f4da3a1943882412e4e4c9027689fe6/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/8f4da3a1943882412e4e4c9027689fe6/AndroidManifest.xml:21:5-23:58
-MERGED from [com.google.android.gms:play-services-vision-license:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-vision-license-12.0.1.aar/235c9117fbc8c5962e283bffc99fa89e/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-vision-license:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-vision-license-12.0.1.aar/235c9117fbc8c5962e283bffc99fa89e/AndroidManifest.xml:20:5-44
-MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/feb7313768e4a11a27fcb4968b9e27a8/AndroidManifest.xml:14:5-16:41
-MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/feb7313768e4a11a27fcb4968b9e27a8/AndroidManifest.xml:14:5-16:41
-MERGED from [com.facebook.fresco:fresco:1.3.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/ea334e61edcc4920b4cf95ff72266b25/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fresco:1.3.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/ea334e61edcc4920b4cf95ff72266b25/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/d2a30c1b13d66bb30b83052866e3cba9/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/d2a30c1b13d66bb30b83052866e3cba9/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/1de5f68a7cc8440bd5b916485ba6e803/AndroidManifest.xml:2:3-70
-MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/1de5f68a7cc8440bd5b916485ba6e803/AndroidManifest.xml:2:3-70
-MERGED from [com.google.android.gms:play-services-gcm-license:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-gcm-license-12.0.1.aar/3b7d741633fd0bfbc9047e102f6fa0e5/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-gcm-license:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-gcm-license-12.0.1.aar/3b7d741633fd0bfbc9047e102f6fa0e5/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-analytics-license:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-analytics-license-12.0.1.aar/85e85d37e4f84dd215e9281fb2bf2421/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-analytics-license:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-analytics-license-12.0.1.aar/85e85d37e4f84dd215e9281fb2bf2421/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-location-license:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-location-license-12.0.1.aar/f683392a317f4dfd5d2d1973a255381d/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-location-license:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-location-license-12.0.1.aar/f683392a317f4dfd5d2d1973a255381d/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base-license:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-base-license-12.0.1.aar/9d98ef826ecd92c21092294a5f791212/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base-license:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-base-license-12.0.1.aar/9d98ef826ecd92c21092294a5f791212/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-maps-license:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-maps-license-12.0.1.aar/1a66b6d87fbd8d1a96b8c25a9fc8a5b3/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-maps-license:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-maps-license-12.0.1.aar/1a66b6d87fbd8d1a96b8c25a9fc8a5b3/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-12.0.1.aar/c7e4beefe8cc69963056a22f42a45908/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-12.0.1.aar/c7e4beefe8cc69963056a22f42a45908/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-vision-common-license:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-license-12.0.1.aar/4f6e58b9df36c2a74cd98480c21b5c16/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-vision-common-license:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-license-12.0.1.aar/4f6e58b9df36c2a74cd98480c21b5c16/AndroidManifest.xml:20:5-44
-MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/5a866db911c964c2fa751224f4e36bfe/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/5a866db911c964c2fa751224f4e36bfe/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/68c95dc3c96309a0935a9e382dc106c7/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/68c95dc3c96309a0935a9e382dc106c7/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/c1686a1383ea45b57be8ceb478c5dd8d/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/c1686a1383ea45b57be8ceb478c5dd8d/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/b06bf918dc19cb1e0f0da499ee839fe8/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/b06bf918dc19cb1e0f0da499ee839fe8/AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.android.gms:play-services-iid-license:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-iid-license-12.0.1.aar/3b23c355035dc0e867b8c3d644895c01/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-iid-license:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-iid-license-12.0.1.aar/3b23c355035dc0e867b8c3d644895c01/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-analytics-impl-license:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-license-12.0.1.aar/e16ecdb3bbf6c31af9a4e08fefaeb4cb/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-analytics-impl-license:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-license-12.0.1.aar/e16ecdb3bbf6c31af9a4e08fefaeb4cb/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl-license:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-license-12.0.1.aar/5171317e53ba20a53a5caecc26144fbb/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl-license:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-license-12.0.1.aar/5171317e53ba20a53a5caecc26144fbb/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-12.0.1.aar/af198bcad07f3eaa39e2beab7f3ee131/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-12.0.1.aar/af198bcad07f3eaa39e2beab7f3ee131/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/5bf878eebf2832a2dcccb8ba1ace772d/AndroidManifest.xml:20:5-22:41
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/5bf878eebf2832a2dcccb8ba1ace772d/AndroidManifest.xml:20:5-22:41
-INJECTED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml
-INJECTED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml
-	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/5acaa20445f4efbc250fdc3086cd3add/AndroidManifest.xml:23:9-75
+MERGED from [com.facebook.react:react-native:0.55.4] /Users/DuyPQ/Documents/FitnessApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/DuyPQ/Documents/FitnessApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.1] /Users/DuyPQ/Documents/FitnessApp/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/DuyPQ/Documents/FitnessApp/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fresco:fresco:1.3.0] /Users/DuyPQ/Documents/FitnessApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/DuyPQ/Documents/FitnessApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /Users/DuyPQ/Documents/FitnessApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /Users/DuyPQ/Documents/FitnessApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/DuyPQ/Documents/FitnessApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/DuyPQ/Documents/FitnessApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/DuyPQ/Documents/FitnessApp/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/AndroidManifest.xml:2:3-70
 	android:targetSdkVersion
 		INJECTED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml
-uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from [:react-native-maps] /Users/DuyPQ/Documents/FitnessApp/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/release/AndroidManifest.xml:10:5-81
-	android:name
-		ADDED from [:react-native-maps] /Users/DuyPQ/Documents/FitnessApp/node_modules/react-native-maps/lib/android/build/intermediates/manifests/full/release/AndroidManifest.xml:10:22-78
-uses-feature#android.hardware.camera
-ADDED from [:react-native-camera] /Users/DuyPQ/Documents/FitnessApp/node_modules/react-native-camera/android/build/intermediates/manifests/full/release/AndroidManifest.xml:13:5-15:36
-	android:required
-		ADDED from [:react-native-camera] /Users/DuyPQ/Documents/FitnessApp/node_modules/react-native-camera/android/build/intermediates/manifests/full/release/AndroidManifest.xml:15:9-33
-	android:name
-		ADDED from [:react-native-camera] /Users/DuyPQ/Documents/FitnessApp/node_modules/react-native-camera/android/build/intermediates/manifests/full/release/AndroidManifest.xml:14:9-47
-uses-feature#android.hardware.camera.autofocus
-ADDED from [:react-native-camera] /Users/DuyPQ/Documents/FitnessApp/node_modules/react-native-camera/android/build/intermediates/manifests/full/release/AndroidManifest.xml:16:5-18:36
-	android:required
-		ADDED from [:react-native-camera] /Users/DuyPQ/Documents/FitnessApp/node_modules/react-native-camera/android/build/intermediates/manifests/full/release/AndroidManifest.xml:18:9-33
-	android:name
-		ADDED from [:react-native-camera] /Users/DuyPQ/Documents/FitnessApp/node_modules/react-native-camera/android/build/intermediates/manifests/full/release/AndroidManifest.xml:17:9-57
-meta-data#android.support.VERSION
-ADDED from [com.android.support:exifinterface:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/exifinterface-26.1.0.aar/e029e70da3473e2cdd4284126dfdfff7/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/5acaa20445f4efbc250fdc3086cd3add/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/5acaa20445f4efbc250fdc3086cd3add/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/2d8b7846366b10504338a0b5f923bddf/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/2d8b7846366b10504338a0b5f923bddf/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/d456b9de08407027591c6ddc5c5622f9/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/d456b9de08407027591c6ddc5c5622f9/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-v4:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e717da2e0d85954776fc9d8c9a427efe/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-v4:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e717da2e0d85954776fc9d8c9a427efe/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c3c252a9c6cd4f780c45a092df9f0f6b/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c3c252a9c6cd4f780c45a092df9f0f6b/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/4eedd3b4c718a50c4275938fb391d21c/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/4eedd3b4c718a50c4275938fb391d21c/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/375964bfd398f3d174435d96f2373b52/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/375964bfd398f3d174435d96f2373b52/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/23d801bd9ccd62861bbc2817e84020ab/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/23d801bd9ccd62861bbc2817e84020ab/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/8f4da3a1943882412e4e4c9027689fe6/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/8f4da3a1943882412e4e4c9027689fe6/AndroidManifest.xml:26:9-28:38
-	android:value
-		ADDED from [com.android.support:exifinterface:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/exifinterface-26.1.0.aar/e029e70da3473e2cdd4284126dfdfff7/AndroidManifest.xml:25:13-35
-	android:name
-		ADDED from [com.android.support:exifinterface:26.1.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/exifinterface-26.1.0.aar/e029e70da3473e2cdd4284126dfdfff7/AndroidManifest.xml:24:13-51
-uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [com.google.android.gms:play-services-gcm:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-gcm-12.0.1.aar/7c35f3da171b9685602525f03ce55184/AndroidManifest.xml:23:5-82
-MERGED from [com.google.android.gms:play-services-iid:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-iid-12.0.1.aar/1ba9a4d984de45c31b84a8ee2097eba6/AndroidManifest.xml:23:5-82
-MERGED from [com.google.android.gms:play-services-iid:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-iid-12.0.1.aar/1ba9a4d984de45c31b84a8ee2097eba6/AndroidManifest.xml:23:5-82
-	android:name
-		ADDED from [com.google.android.gms:play-services-gcm:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-gcm-12.0.1.aar/7c35f3da171b9685602525f03ce55184/AndroidManifest.xml:23:22-79
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-analytics-12.0.1.aar/333938ebe2532ab6115eb297d9d71b34/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-maps:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-maps-12.0.1.aar/97b3bf820a83ad835f8d1c69d686eddb/AndroidManifest.xml:23:5-79
-MERGED from [com.google.android.gms:play-services-maps:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-maps-12.0.1.aar/97b3bf820a83ad835f8d1c69d686eddb/AndroidManifest.xml:23:5-79
-MERGED from [com.google.android.gms:play-services-analytics-impl:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-12.0.1.aar/ec8ee1d1579358fb746a0a59b992f5db/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-analytics-impl:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-12.0.1.aar/ec8ee1d1579358fb746a0a59b992f5db/AndroidManifest.xml:24:5-79
-	android:name
-		ADDED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-analytics-12.0.1.aar/333938ebe2532ab6115eb297d9d71b34/AndroidManifest.xml:24:22-76
-uses-permission#android.permission.WAKE_LOCK
-ADDED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-analytics-12.0.1.aar/333938ebe2532ab6115eb297d9d71b34/AndroidManifest.xml:27:5-68
-MERGED from [com.google.android.gms:play-services-analytics-impl:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-12.0.1.aar/ec8ee1d1579358fb746a0a59b992f5db/AndroidManifest.xml:27:5-68
-MERGED from [com.google.android.gms:play-services-analytics-impl:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-12.0.1.aar/ec8ee1d1579358fb746a0a59b992f5db/AndroidManifest.xml:27:5-68
-	android:name
-		ADDED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-analytics-12.0.1.aar/333938ebe2532ab6115eb297d9d71b34/AndroidManifest.xml:27:22-65
-receiver#com.google.android.gms.analytics.AnalyticsReceiver
-ADDED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-analytics-12.0.1.aar/333938ebe2532ab6115eb297d9d71b34/AndroidManifest.xml:30:9-34:20
-	android:enabled
-		ADDED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-analytics-12.0.1.aar/333938ebe2532ab6115eb297d9d71b34/AndroidManifest.xml:32:13-35
-	android:exported
-		ADDED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-analytics-12.0.1.aar/333938ebe2532ab6115eb297d9d71b34/AndroidManifest.xml:33:13-37
-	android:name
-		ADDED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-analytics-12.0.1.aar/333938ebe2532ab6115eb297d9d71b34/AndroidManifest.xml:31:13-78
-service#com.google.android.gms.analytics.AnalyticsService
-ADDED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-analytics-12.0.1.aar/333938ebe2532ab6115eb297d9d71b34/AndroidManifest.xml:36:9-39:40
-	android:enabled
-		ADDED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-analytics-12.0.1.aar/333938ebe2532ab6115eb297d9d71b34/AndroidManifest.xml:38:13-35
-	android:exported
-		ADDED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-analytics-12.0.1.aar/333938ebe2532ab6115eb297d9d71b34/AndroidManifest.xml:39:13-37
-	android:name
-		ADDED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-analytics-12.0.1.aar/333938ebe2532ab6115eb297d9d71b34/AndroidManifest.xml:37:13-77
-service#com.google.android.gms.analytics.AnalyticsJobService
-ADDED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-analytics-12.0.1.aar/333938ebe2532ab6115eb297d9d71b34/AndroidManifest.xml:40:9-44:72
-	android:enabled
-		ADDED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-analytics-12.0.1.aar/333938ebe2532ab6115eb297d9d71b34/AndroidManifest.xml:42:13-35
-	android:exported
-		ADDED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-analytics-12.0.1.aar/333938ebe2532ab6115eb297d9d71b34/AndroidManifest.xml:43:13-37
-	android:permission
-		ADDED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-analytics-12.0.1.aar/333938ebe2532ab6115eb297d9d71b34/AndroidManifest.xml:44:13-69
-	android:name
-		ADDED from [com.google.android.gms:play-services-analytics:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-analytics-12.0.1.aar/333938ebe2532ab6115eb297d9d71b34/AndroidManifest.xml:41:13-80
-uses-feature#0x00020000
-ADDED from [com.google.android.gms:play-services-maps:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-maps-12.0.1.aar/97b3bf820a83ad835f8d1c69d686eddb/AndroidManifest.xml:26:5-28:35
-	android:glEsVersion
-		ADDED from [com.google.android.gms:play-services-maps:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-maps-12.0.1.aar/97b3bf820a83ad835f8d1c69d686eddb/AndroidManifest.xml:27:9-41
-	android:required
-		ADDED from [com.google.android.gms:play-services-maps:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-maps-12.0.1.aar/97b3bf820a83ad835f8d1c69d686eddb/AndroidManifest.xml:28:9-32
-activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/d047cacb67da153875022cec3bdb0a6b/AndroidManifest.xml:23:9-26:75
-	android:exported
-		ADDED from [com.google.android.gms:play-services-base:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/d047cacb67da153875022cec3bdb0a6b/AndroidManifest.xml:25:13-37
-	android:theme
-		ADDED from [com.google.android.gms:play-services-base:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/d047cacb67da153875022cec3bdb0a6b/AndroidManifest.xml:26:13-72
-	android:name
-		ADDED from [com.google.android.gms:play-services-base:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/d047cacb67da153875022cec3bdb0a6b/AndroidManifest.xml:24:13-79
-meta-data#com.google.android.gms.version
-ADDED from [com.google.maps.android:android-maps-utils:0.5] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/9abfe7ab30a4b3ece21e0a4bfd879f5e/AndroidManifest.xml:8:9-10:69
-MERGED from [com.google.android.gms:play-services-basement:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.1.aar/ba1d0226a3a8d97bbf5b2892f4b45002/AndroidManifest.xml:23:9-25:69
-MERGED from [com.google.android.gms:play-services-basement:12.0.1] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.1.aar/ba1d0226a3a8d97bbf5b2892f4b45002/AndroidManifest.xml:23:9-25:69
-	android:value
-		ADDED from [com.google.maps.android:android-maps-utils:0.5] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/9abfe7ab30a4b3ece21e0a4bfd879f5e/AndroidManifest.xml:10:13-66
-	android:name
-		ADDED from [com.google.maps.android:android-maps-utils:0.5] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/9abfe7ab30a4b3ece21e0a4bfd879f5e/AndroidManifest.xml:9:13-58
-uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:1:1-34:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
-meta-data#android.arch.lifecycle.VERSION
-ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/5bf878eebf2832a2dcccb8ba1ace772d/AndroidManifest.xml:25:9-27:47
-	android:value
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/5bf878eebf2832a2dcccb8ba1ace772d/AndroidManifest.xml:27:13-44
-	android:name
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/5bf878eebf2832a2dcccb8ba1ace772d/AndroidManifest.xml:26:13-58
+android:uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+IMPLIED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+android:uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from /Users/DuyPQ/Documents/FitnessApp/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE

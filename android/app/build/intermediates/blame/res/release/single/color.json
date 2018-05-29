@@ -1,90 +1,38 @@
 [
     {
-        "merged": "/Users/DuyPQ/Documents/FitnessApp/android/app/build/intermediates/res/merged/release/color/abc_btn_colored_text_material.xml",
-        "source": "/Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/5acaa20445f4efbc250fdc3086cd3add/res/color/abc_btn_colored_text_material.xml"
-    },
-    {
         "merged": "/Users/DuyPQ/Documents/FitnessApp/android/app/build/intermediates/res/merged/release/color/abc_primary_text_material_light.xml",
-        "source": "/Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/5acaa20445f4efbc250fdc3086cd3add/res/color/abc_primary_text_material_light.xml"
+        "source": "/Users/DuyPQ/Documents/FitnessApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color/abc_primary_text_material_light.xml"
     },
     {
         "merged": "/Users/DuyPQ/Documents/FitnessApp/android/app/build/intermediates/res/merged/release/color/abc_secondary_text_material_dark.xml",
-        "source": "/Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/5acaa20445f4efbc250fdc3086cd3add/res/color/abc_secondary_text_material_dark.xml"
+        "source": "/Users/DuyPQ/Documents/FitnessApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color/abc_secondary_text_material_dark.xml"
     },
     {
         "merged": "/Users/DuyPQ/Documents/FitnessApp/android/app/build/intermediates/res/merged/release/color/abc_primary_text_material_dark.xml",
-        "source": "/Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/5acaa20445f4efbc250fdc3086cd3add/res/color/abc_primary_text_material_dark.xml"
-    },
-    {
-        "merged": "/Users/DuyPQ/Documents/FitnessApp/android/app/build/intermediates/res/merged/release/color/abc_hint_foreground_material_dark.xml",
-        "source": "/Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/5acaa20445f4efbc250fdc3086cd3add/res/color/abc_hint_foreground_material_dark.xml"
+        "source": "/Users/DuyPQ/Documents/FitnessApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color/abc_primary_text_material_dark.xml"
     },
     {
         "merged": "/Users/DuyPQ/Documents/FitnessApp/android/app/build/intermediates/res/merged/release/color/switch_thumb_material_light.xml",
-        "source": "/Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/5acaa20445f4efbc250fdc3086cd3add/res/color/switch_thumb_material_light.xml"
-    },
-    {
-        "merged": "/Users/DuyPQ/Documents/FitnessApp/android/app/build/intermediates/res/merged/release/color/abc_hint_foreground_material_light.xml",
-        "source": "/Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/5acaa20445f4efbc250fdc3086cd3add/res/color/abc_hint_foreground_material_light.xml"
-    },
-    {
-        "merged": "/Users/DuyPQ/Documents/FitnessApp/android/app/build/intermediates/res/merged/release/color/common_google_signin_btn_text_light.xml",
-        "source": "/Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/d047cacb67da153875022cec3bdb0a6b/res/color/common_google_signin_btn_text_light.xml"
+        "source": "/Users/DuyPQ/Documents/FitnessApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color/switch_thumb_material_light.xml"
     },
     {
         "merged": "/Users/DuyPQ/Documents/FitnessApp/android/app/build/intermediates/res/merged/release/color/abc_secondary_text_material_light.xml",
-        "source": "/Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/5acaa20445f4efbc250fdc3086cd3add/res/color/abc_secondary_text_material_light.xml"
-    },
-    {
-        "merged": "/Users/DuyPQ/Documents/FitnessApp/android/app/build/intermediates/res/merged/release/color/common_google_signin_btn_text_dark.xml",
-        "source": "/Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/d047cacb67da153875022cec3bdb0a6b/res/color/common_google_signin_btn_text_dark.xml"
-    },
-    {
-        "merged": "/Users/DuyPQ/Documents/FitnessApp/android/app/build/intermediates/res/merged/release/color/abc_tint_default.xml",
-        "source": "/Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/5acaa20445f4efbc250fdc3086cd3add/res/color/abc_tint_default.xml"
-    },
-    {
-        "merged": "/Users/DuyPQ/Documents/FitnessApp/android/app/build/intermediates/res/merged/release/color/abc_tint_switch_track.xml",
-        "source": "/Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/5acaa20445f4efbc250fdc3086cd3add/res/color/abc_tint_switch_track.xml"
+        "source": "/Users/DuyPQ/Documents/FitnessApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color/abc_secondary_text_material_light.xml"
     },
     {
         "merged": "/Users/DuyPQ/Documents/FitnessApp/android/app/build/intermediates/res/merged/release/color/switch_thumb_material_dark.xml",
-        "source": "/Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/5acaa20445f4efbc250fdc3086cd3add/res/color/switch_thumb_material_dark.xml"
-    },
-    {
-        "merged": "/Users/DuyPQ/Documents/FitnessApp/android/app/build/intermediates/res/merged/release/color/abc_tint_spinner.xml",
-        "source": "/Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/5acaa20445f4efbc250fdc3086cd3add/res/color/abc_tint_spinner.xml"
+        "source": "/Users/DuyPQ/Documents/FitnessApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color/switch_thumb_material_dark.xml"
     },
     {
         "merged": "/Users/DuyPQ/Documents/FitnessApp/android/app/build/intermediates/res/merged/release/color/abc_primary_text_disable_only_material_light.xml",
-        "source": "/Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/5acaa20445f4efbc250fdc3086cd3add/res/color/abc_primary_text_disable_only_material_light.xml"
+        "source": "/Users/DuyPQ/Documents/FitnessApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color/abc_primary_text_disable_only_material_light.xml"
     },
     {
         "merged": "/Users/DuyPQ/Documents/FitnessApp/android/app/build/intermediates/res/merged/release/color/abc_primary_text_disable_only_material_dark.xml",
-        "source": "/Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/5acaa20445f4efbc250fdc3086cd3add/res/color/abc_primary_text_disable_only_material_dark.xml"
-    },
-    {
-        "merged": "/Users/DuyPQ/Documents/FitnessApp/android/app/build/intermediates/res/merged/release/color/abc_btn_colored_borderless_text_material.xml",
-        "source": "/Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/5acaa20445f4efbc250fdc3086cd3add/res/color/abc_btn_colored_borderless_text_material.xml"
-    },
-    {
-        "merged": "/Users/DuyPQ/Documents/FitnessApp/android/app/build/intermediates/res/merged/release/color/abc_tint_edittext.xml",
-        "source": "/Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/5acaa20445f4efbc250fdc3086cd3add/res/color/abc_tint_edittext.xml"
+        "source": "/Users/DuyPQ/Documents/FitnessApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color/abc_primary_text_disable_only_material_dark.xml"
     },
     {
         "merged": "/Users/DuyPQ/Documents/FitnessApp/android/app/build/intermediates/res/merged/release/color/abc_search_url_text.xml",
-        "source": "/Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/5acaa20445f4efbc250fdc3086cd3add/res/color/abc_search_url_text.xml"
-    },
-    {
-        "merged": "/Users/DuyPQ/Documents/FitnessApp/android/app/build/intermediates/res/merged/release/color/common_google_signin_btn_tint.xml",
-        "source": "/Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/d047cacb67da153875022cec3bdb0a6b/res/color/common_google_signin_btn_tint.xml"
-    },
-    {
-        "merged": "/Users/DuyPQ/Documents/FitnessApp/android/app/build/intermediates/res/merged/release/color/abc_tint_btn_checkable.xml",
-        "source": "/Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/5acaa20445f4efbc250fdc3086cd3add/res/color/abc_tint_btn_checkable.xml"
-    },
-    {
-        "merged": "/Users/DuyPQ/Documents/FitnessApp/android/app/build/intermediates/res/merged/release/color/abc_tint_seek_thumb.xml",
-        "source": "/Users/DuyPQ/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/5acaa20445f4efbc250fdc3086cd3add/res/color/abc_tint_seek_thumb.xml"
+        "source": "/Users/DuyPQ/Documents/FitnessApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color/abc_search_url_text.xml"
     }
 ]

@@ -2,10 +2,9 @@
 #
 .DS_Store
 
-<<<<<<< HEAD
-=======
-
->>>>>>> master
+# Xcode
+#
+build/
 *.pbxuser
 !default.pbxuser
 *.mode1v3
@@ -23,6 +22,13 @@ DerivedData
 *.xcuserstate
 project.xcworkspace
 
+# Android/IntelliJ
+#
+build/
+.idea
+.gradle
+local.properties
+*.iml
 
 # node.js
 #
